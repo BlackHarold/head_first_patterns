@@ -1,21 +1,13 @@
+package home.bluewhale;
+
 import home.bluewhale.observer.display.CurrentConditionsDisplay;
 import home.bluewhale.observer.display.ForecastDisplay;
 import home.bluewhale.observer.display.HeatIndexDisplay;
 import home.bluewhale.observer.display.StatisticsDisplay;
 import home.bluewhale.observer.subject.WeatherData;
-import home.bluewhale.strategy.client.Duck;
-import home.bluewhale.strategy.client.RubberDuck;
-import home.bluewhale.strategy.interfaces.fly.FlyWithWings;
-import home.bluewhale.strategy.interfaces.quack.Quack;
 
-public class Main {
-
+public class Observer {
     public static void main(String[] args) {
-
-        //#1 Strategy
-        Duck duck = new RubberDuck();
-        duck.setFb(new FlyWithWings());
-        duck.setQb(new Quack());
 
         //#2 Observer
         WeatherData weatherData = new WeatherData();
