@@ -1,7 +1,5 @@
 package home.bluewhale.observer.subject;
 
-import home.bluewhale.observer.Observer;
-
 import java.util.ArrayList;
 import java.util.List;
 

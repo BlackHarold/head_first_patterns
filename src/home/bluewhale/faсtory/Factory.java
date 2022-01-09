@@ -1,4 +1,4 @@
-package home.bluewhale;
+package home.bluewhale.faсtory;
 
 import home.bluewhale.faсtory.factories.ChicagoPizzaFactory;
 import home.bluewhale.faсtory.factories.ChicagoPizzaStore;

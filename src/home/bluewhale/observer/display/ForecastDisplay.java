@@ -1,6 +1,6 @@
 package home.bluewhale.observer.display;
 
-import home.bluewhale.observer.Observer;
+import home.bluewhale.observer.subject.Observer;
 import home.bluewhale.observer.subject.WeatherData;
 
 public class ForecastDisplay implements Observer, DisplayElement {

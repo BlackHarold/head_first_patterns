@@ -1,4 +1,4 @@
-package home.bluewhale;
+package home.bluewhale.strategy;
 
 import home.bluewhale.strategy.client.Duck;
 import home.bluewhale.strategy.client.RubberDuck;

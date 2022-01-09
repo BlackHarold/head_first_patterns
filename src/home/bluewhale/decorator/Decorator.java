@@ -1,4 +1,4 @@
-package home.bluewhale;
+package home.bluewhale.decorator;
 
 import home.bluewhale.decorator.starbuzz.*;
 
